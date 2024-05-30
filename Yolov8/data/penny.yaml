@@ -1,0 +1,19 @@
+path: /Users/sami/Workspace/yolov8/data/segment/penny-dataset
+
+# train and val data as 1) directory: path/images/, 2) file: path/images.txt, or 3) list: [path1/images/, path2/images/]
+train: images/train
+val: images/val
+test: images/test
+
+nc: 8
+names:
+  [
+    '1 centime',
+    '1 euro',
+    '10 centimes',
+    '2 centimes',
+    '2 euro',
+    '20 centimes',
+    '5 centimes',
+    '50 centimes',
+  ]
