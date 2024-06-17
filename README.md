@@ -25,10 +25,12 @@ Pour entrainer à nouveau le model, copier le dossier yolov8 dans votre google d
 ### Prédire
 
 Pour utiliser notre model entrainé, ouvrez le script `segmentation.py`, créez et activez un environnement avec conda ou venv selon votre convenience, installez ultralytics avec la commande `pip install ultralytics`, lancez le programme.
+
 ![](Demos/yolo.png)
 
 
 ## Detectron2
 
 Copier ce dossier Detectron2 dans un dossier Google Colab de votre Google Drive, ouvez le notebook et lancez toutes les cellules à l'exception de l'entrainement si vous souhaitez utiliser notre model entrainé sur 5 epochs. 
+
 ![](Demos/detectron2.png)
